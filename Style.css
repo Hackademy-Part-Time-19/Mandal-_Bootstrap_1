@@ -1,0 +1,77 @@
+@font-face {
+    font-family: AwanZaman;
+    src: url(./font/AwanZaman_Medium/AwanZaman_Medium.ttf);
+}
+
+*{
+    font-family: AwanZaman;
+    background-color: black;
+}
+
+.navbar{
+    width: 100%;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: #0a50c9;
+}
+
+#myVideo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myVideo::-webkit-media-controls {
+    display: none !important;
+  }
+  #myVideo::-webkit-media-controls-play-button {
+    display: none !important;
+  }
+  #myVideo::-webkit-media-controls-start-playback-button {
+    display: none !important;
+  }
+  #myVideo::-webkit-media-controls-current-time-display {
+    display: none !important;
+  }
+  #myVideo::-webkit-media-controls-time-remaining-display {
+    display: none !important;
+  }
+  #myVideo::-webkit-media-controls-toggle-closed-captions-button {
+    display: none !important;
+  }
+  #myVideo::-webkit-media-controls-mute-button {
+    display: none !important;
+  }
+  #myVideo::-webkit-media-controls-volume-slider {
+    display: none !important;
+  }
+  #myVideo::-webkit-media-controls-timeline {
+    display: none !important;
+  }
+  #myVideo::-webkit-media-controls-fullscreen-button {
+    display: none !important;
+  }
+
+  .img-card{
+    margin-top: 40px;
+    width: 60vh;
+    height: 60vh;
+    padding: 0px;
+    object-fit: contain;
+  }
+
+  .row{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4.1%;
+  }
