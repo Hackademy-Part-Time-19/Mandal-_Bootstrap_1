@@ -13,7 +13,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="position: fixed; z-index: 1;">
         <div class="container-fluid">
             <a class="navbar-brand" href="https://www.nasa.gov/">
                 <img src="./media/nasa-logo-web-rgb.png" alt="" width="130vh" height="70vh">
@@ -71,21 +71,22 @@
             </div>
         </div>
     </nav>
+    <div style="padding-top: 4.5vh;">
+        <div style="position: relative">
 
-    <div style="position: relative">
-        <a href="https://science.nasa.gov/solar-system/" style="text-decoration: none;">
-        <div style="position: absolute;top:50px; left:50px; background-color: transparent;">
-                <h1 style="color: white; font-size: 4vh;">Solar System</h1>
+            <a href="https://science.nasa.gov/solar-system/" style="text-decoration: none;">
+            <div style="position: absolute;top:50px; left:50px; background-color: transparent;">
+                    <h1 style="color: white; font-size: 4vh;">Solar System</h1>
+            </div>
+
+            <video id="myVideo" style="width:100%; height:72vh; object-fit:cover;" autoplay muted loop="99999"
+                    controls="false">
+                    <source src="./media/world_-_1992 (720p).mp4" type="video/mp4">
+            </video>
+            </a>
+
         </div>
-
-        <video id="myVideo" style="width:100%; height:72vh; object-fit:cover;" autoplay muted loop="99999"
-                controls="false">
-                <source src="./media/world_-_1992 (720p).mp4" type="video/mp4">
-        </video>
-        </a>
-
     </div>
-
     <section>
         <div class="container-fluid text-center">
             <div class="row row-cols-2">
